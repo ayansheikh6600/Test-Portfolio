@@ -9,7 +9,10 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.image{
+    background-size: cover;
+    width: 100%;
+}
 
 .logo {
     width: 300px;
@@ -17,13 +20,17 @@ body{
 }
 
 nav {
+    background-color: #071923;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
 }
 
 .nav-div {
     display: flex;
-    height: 150px;
+    height: 90px;
 }
 
 .ul-div {
@@ -54,22 +61,157 @@ a:hover{
     margin-top: 80px;
     padding: 0px 10px;
 }
-h1,h3{
+.humburger{
+    position: absolute;
+    right: 5%;
+    top: 75px;
+    display: none;
+
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 5px;
+}
+/* .social-div li{
+    list-style-type: none;
+    margin: 0px 5px;
+} */
+
+/* Heading / Self Introduction Section start */
+.intro-heading{
+    position: absolute;
+    top: 350px;
+    left: 5%;
     color: white;
+    font-size: 80px;
+}
+.first-H{
+    font-size: 25px;
+    position: absolute;
+    top: 325px;
+}
+.second-H{
+    font-size: 25px;
+    position: absolute;
+    top: 440px;
+    color: #00EBFF;
+}
+/* Heading / Self Introduction Section End */
+
+.about-btn{
+    
+    position: absolute;
+    top: 437px;
+    left: 340px;
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
 }
 
-  
-  @media (max-width: 920px) {
-    body{      
-      background-image: url(./images/break-p-mob/992\ break-01.png);
-      background-size: cover;
+.self-image{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    position: absolute;
+    top: 270px;
+    right: 15%;
+    border-radius: 50px;
+    background-image: url(./images/ayan.jpg);
+    background-size: cover;
+    box-shadow: 13px 13px 23px #00EBFF;
+    border: transparent;
+}
+.social-div-2{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .self-image{
+        right: 10%;     
     }
-  }
-  @media (max-width: 768px) {
+}
+@media (max-width: 942px) {
+
+    .social-div{
+        display: none;
+    }  
+}
+@media (max-width : 880px) {
+
     body{
-        width: 100%;
-      background-image: url(./images/break-p-mob/768\ break-01.png);
-      background-size: cover;
+        background-image: url(./images/break-p-mob/768\ break-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     }
-  }
-  
+    .self-image{
+        position: absolute;
+        top: 180px;
+        left: 290px;
+        
+    }
+    .intro-heading{
+        position: absolute;
+        top: 550px;
+        left: 5%;
+        color: white;
+        font-size: 80px;
+    }
+    .first-H{
+        font-size: 25px;
+        position: absolute;
+        top: 525px;
+    }
+    .second-H{
+        font-size: 25px;
+        position: absolute;
+        top: 640px;
+        color: #00EBFF;
+    }
+    /* Heading / Self Introduction Section End */
+    
+    .about-btn{
+        
+        position: absolute;
+        top: 637px;
+        left: 340px;
+        width: 130px;
+        height: 35px;
+        border-radius: 20px;
+    }
+    
+}
+@media (max-width: 714px) {
+    
+    ul{
+        display: none;
+    }
+    .humburger{
+        cursor: pointer;
+        display: block;
+    }
+    .self-image{
+        width: 250px;
+        height: 250px;
+        left: 220px;
+    }
+
+}
+@media (max-width:600px) {
+
+   .logo{
+    height: 100px;
+    width: 180px;
+   }
+   .humburger{
+    top: 40px;
+   }
+    .self-image{
+        left:180px ;
+    }
+    
+}
