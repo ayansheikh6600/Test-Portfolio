@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url(./images/break-p-mob/1400\ break-01.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.image{
+
+.image {
     background-size: cover;
     width: 100%;
 }
@@ -53,55 +54,63 @@ a {
     font-size: 23px;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: #00EBFF;
     transition: 1s;
 }
-.social-div{
+
+.social-div {
     margin-top: 80px;
     padding: 0px 10px;
 }
-.humburger{
+
+.humburger {
     position: absolute;
     right: 5%;
     top: 75px;
     display: none;
 
 }
-.line{
+
+.line {
     width: 33px;
     background-color: white;
     height: 4px;
     margin: 5px 5px;
 }
+
 /* .social-div li{
     list-style-type: none;
     margin: 0px 5px;
 } */
 
 /* Heading / Self Introduction Section start */
-.intro-heading{
+.intro-heading {
     position: absolute;
     top: 350px;
     left: 5%;
     color: white;
     font-size: 80px;
 }
-.first-H{
+
+.first-H {
     font-size: 25px;
     position: absolute;
     top: 325px;
 }
-.second-H{
+
+.second-H {
     font-size: 25px;
     position: absolute;
     top: 440px;
     color: #00EBFF;
 }
+
 /* Heading / Self Introduction Section End */
 
-.about-btn{
-    
+.about-btn {
+
     position: absolute;
     top: 437px;
     left: 340px;
@@ -110,7 +119,7 @@ a:hover{
     border-radius: 20px;
 }
 
-.self-image{
+.self-image {
     width: 300px;
     height: 300px;
     border: 1px solid white;
@@ -123,7 +132,8 @@ a:hover{
     box-shadow: 13px 13px 23px #00EBFF;
     border: transparent;
 }
-.social-div-2{
+
+.social-div-2 {
     position: absolute;
     top: 400px;
     left: 50px;
@@ -131,51 +141,67 @@ a:hover{
 }
 
 @media (max-width: 1024px) {
-    .self-image{
-        right: 10%;     
+    .self-image {
+        right: 10%;
     }
 }
+
+@media (max-width: 1023px) {
+    body {
+        background-image: url(./images/break-p-mob/992\ break-01.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
 @media (max-width: 942px) {
 
-    .social-div{
+    .social-div {
         display: none;
-    }  
+    }
 }
+
 @media (max-width : 880px) {
 
-    body{
+    body {
         background-image: url(./images/break-p-mob/768\ break-01.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .self-image{
+
+    .self-image {
         position: absolute;
         top: 180px;
         left: 290px;
-        
+
     }
-    .intro-heading{
+
+    .intro-heading {
         position: absolute;
         top: 550px;
         left: 5%;
         color: white;
         font-size: 80px;
     }
-    .first-H{
+
+    .first-H {
         font-size: 25px;
         position: absolute;
         top: 525px;
     }
-    .second-H{
+
+    .second-H {
         font-size: 25px;
         position: absolute;
         top: 640px;
         color: #00EBFF;
     }
+
     /* Heading / Self Introduction Section End */
-    
-    .about-btn{
-        
+
+    .about-btn {
+
         position: absolute;
         top: 637px;
         left: 340px;
@@ -183,35 +209,41 @@ a:hover{
         height: 35px;
         border-radius: 20px;
     }
-    
+
 }
+
 @media (max-width: 714px) {
-    
-    ul{
+
+    ul {
         display: none;
     }
-    .humburger{
+
+    .humburger {
         cursor: pointer;
         display: block;
     }
-    .self-image{
+
+    .self-image {
         width: 250px;
         height: 250px;
         left: 220px;
     }
 
 }
+
 @media (max-width:600px) {
 
-   .logo{
-    height: 100px;
-    width: 180px;
-   }
-   .humburger{
-    top: 40px;
-   }
-    .self-image{
-        left:180px ;
+    .logo {
+        height: 100px;
+        width: 180px;
     }
-    
+
+    .humburger {
+        top: 40px;
+    }
+
+    .self-image {
+        left: 180px;
+    }
+
 }
