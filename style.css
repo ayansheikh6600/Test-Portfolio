@@ -247,3 +247,48 @@ a:hover {
     }
 
 }
+@media (max-width: 480px) {
+
+    body{
+        background-image: url(./images/break-p-mob/mobile-01.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .self-image{
+        position: absolute;
+        left: 25%;
+    }
+    .intro-heading {
+        position: absolute;
+        top: 550px;
+        left: 5%;
+        color: white;
+        font-size: 60px;
+    }
+
+    .first-H {
+        font-size: 25px;
+        position: absolute;
+        top: 530px;
+    }
+
+    .second-H {
+        font-size: 25px;
+        position: absolute;
+        top: 620px;
+        color: #00EBFF;
+    }
+
+    /* Heading / Self Introduction Section End */
+
+    .about-btn {
+
+        position: absolute;
+        top: 680px;
+        left: 20px;
+        width: 130px;
+        height: 35px;
+        border-radius: 20px;
+    }
+    
+}
