@@ -255,27 +255,32 @@ a:hover {
         background-repeat: no-repeat;
     }
     .self-image{
+        width: 170px;
+        height: 170px;
+        margin: 0px auto;
         position: absolute;
-        left: 25%;
+        top: 130px;
+        left: 9%;
+        
     }
     .intro-heading {
         position: absolute;
-        top: 550px;
+        top: 340px;
         left: 5%;
         color: white;
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .first-H {
         font-size: 25px;
         position: absolute;
-        top: 530px;
+        top: 320px;
     }
 
     .second-H {
-        font-size: 25px;
+        font-size: 20px;
         position: absolute;
-        top: 620px;
+        top: 395px;
         color: #00EBFF;
     }
 
@@ -284,11 +289,21 @@ a:hover {
     .about-btn {
 
         position: absolute;
-        top: 680px;
+        top: 425px;
         left: 20px;
-        width: 130px;
-        height: 35px;
+        width: 100px;
+        height: 30px;
         border-radius: 20px;
     }
-    
+    nav{
+        height: 80px;
+    }
+    .logo {
+        height: 80px;
+        width: 180px;
+    }
+
+    .humburger {
+        top: 30px;
+    }
 }
