@@ -173,7 +173,8 @@ a:hover {
     .self-image {
         position: absolute;
         top: 180px;
-        left: 290px;
+        left: 80px;
+        margin: 0px auto;
 
     }
 
@@ -225,14 +226,20 @@ a:hover {
 
     .self-image {
         width: 250px;
+        margin: 0px auto;
         height: 250px;
-        left: 220px;
+        left: 50px;
     }
 
 }
 
 @media (max-width:600px) {
 
+    body{
+        background-image: url(./images/break-p-mob/mobile2-01.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     .logo {
         height: 100px;
         width: 180px;
@@ -243,7 +250,10 @@ a:hover {
     }
 
     .self-image {
-        left: 180px;
+        margin: 0px auto;
+        width: 180px;
+        height: 180px;
+        left: 50px;
     }
 
 }
